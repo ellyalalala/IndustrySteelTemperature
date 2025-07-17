@@ -52,6 +52,12 @@ The model demonstrates high prediction accuracy and is suitable for industrial d
 
 ---
 
+## 🚀 How to Run
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/ellyalalala/IndustrySteelTemperature.git
+cd IndustrySteelTemperature
+
 Tech Stack
 Python 3.x
 
