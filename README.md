@@ -9,13 +9,19 @@ This is a graduation project focused on developing a machine learning model to p
 ---
 
 ## 📂 Data
-The dataset contains ~20,000 observations with the following features:
-- Chemical composition: % of carbon, silicon, manganese, etc.
-- Temperature at previous stages
-- Processing time at each stage
-- Oxygen supply rate
 
-**Target variable:** **Final steel temperature (°C).**
+The project uses multiple datasets collected from steel processing equipment. Each dataset contains thousands of records related to different stages and parameters of the process:
+
+- **Electrode data:** measurements of arc electrode usage 
+- **Bulk materials (by observation):** quantities of bulk materials added 
+- **Bulk materials (by time):** time‑series of bulk material additions 
+- **Gas data:** gas flow rates and usage 
+- **Temperature measurements:** observed temperatures during processing 
+- **Wire materials (by observation):** wire material usage 
+- **Wire materials (by time):** time‑series of wire material feed 
+
+All datasets are merged and preprocessed to build a model predicting the final steel temperature.
+
 
 ---
 
