@@ -1,12 +1,8 @@
-# IndustrySteelTemperature
-
-
 # 🏭 Industry Steel Temperature Prediction
 
 ## 📋 Project Description
 This is a graduation project focused on developing a machine learning model to predict the temperature of steel at various processing stages, helping reduce energy consumption in production.  
 > **Client:** Metallurgical plant LLC *"So We Harden Steel"*.
-> In order to reduce production costs, the metallurgical plant LLC “So we harden steel” decided to reduce energy consumption at the stages of steel processing. You have to develop a model that predicts the temperature of steel.
 
 **Objective:** Predict the final steel temperature based on technological parameters and alloy composition.
 
@@ -14,7 +10,7 @@ This is a graduation project focused on developing a machine learning model to p
 
 ## 📂 Data
 The dataset contains ~20,000 observations with the following features:
-- Chemical composition
+- Chemical composition: % of carbon, silicon, manganese, etc.
 - Temperature at previous stages
 - Processing time at each stage
 - Oxygen supply rate
@@ -24,7 +20,7 @@ The dataset contains ~20,000 observations with the following features:
 ---
 
 ## 🧪 Approach
-✅ EDA:
+✅ Exploratory Data Analysis (EDA):
 - Removed outliers  
 - Handled missing values  
 - Explored feature correlations  
@@ -57,12 +53,10 @@ The model demonstrates high prediction accuracy and is suitable for industrial d
 ```bash
 git clone https://github.com/ellyalalala/IndustrySteelTemperature.git
 cd IndustrySteelTemperature
-
-2️⃣ Install dependencies:
+## 2️⃣ Install dependencies:
 pip install -r requirements.txt
+## jupyter notebook IndustrySteelTemperature.ipynb
 
-3️⃣ Run the notebook:
-jupyter notebook IndustrySteelTemperature.ipynb
 
 
 
