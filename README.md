@@ -95,7 +95,7 @@ jupyter notebook IndustrySteelTemperature.ipynb
 
 ---
 
-Tech Stack
+Tech Stack:
 
 Python 3.x
 
