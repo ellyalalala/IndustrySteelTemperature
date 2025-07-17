@@ -27,13 +27,20 @@ All datasets are merged and preprocessed to build a model predicting the final s
 
 ## 🧪 Approach
 ✅ Exploratory Data Analysis (EDA):
-- Removed outliers  
-- Handled missing values  
-- Explored feature correlations  
 
-✅ Data preparation:
-- Feature scaling
-- Encoding categorical features (if applicable)
+Initial data inspection and feature understanding
+
+✅ Data preprocessing:
+
+Computed total power feature
+
+Merged all datasets on a common key
+
+Replaced missing (NaN) values with zeros
+
+Removed irrelevant features and outliers
+
+Performed correlation analysis
 
 ✅ Models:
 - Linear Regression
