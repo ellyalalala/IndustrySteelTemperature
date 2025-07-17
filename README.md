@@ -96,6 +96,7 @@ jupyter notebook IndustrySteelTemperature.ipynb
 ---
 
 Tech Stack
+
 Python 3.x
 
 Pandas, NumPy, Matplotlib, Seaborn
