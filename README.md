@@ -42,10 +42,21 @@ Removed irrelevant features and outliers
 
 Performed correlation analysis
 
-✅ Models:
-- Linear Regression
-- Random Forest
-- Gradient Boosting (CatBoost)
+✅ Model training:
+
+Linear Regression
+
+DecisionTreeRegressor
+
+RandomForestRegressor
+
+CatBoostRegressor
+
+LGBMRegressor
+
+✅ Model testing and evaluation
+
+✅ Feature importance analysis
 
 ✅ Hyperparameter tuning via `GridSearchCV`.
 
@@ -53,21 +64,31 @@ Performed correlation analysis
 
 ## 📈 Results
 🏆 Best performing model: **CatBoost**  
-📊 Metrics on test set:
-- MAE: **5.44 °C**
-- R²: **0.93**
+Cross‑validated MAE: ~5.9
+MAE on test set: 6.41
 
-The model demonstrates high prediction accuracy and is suitable for industrial deployment to optimize energy costs.
+📊 Key factors influencing temperature:
 
+Initial steel temperature
+Processing time
+
+
+📝 Conclusions
+To reduce energy consumption during steel processing at ООО «So We Harden Steel», we built a machine learning model to predict the final temperature.
+
+After analyzing and preprocessing the data, we trained and compared several models. The best performing one was CatBoostRegressor, which achieved an MAE of 6.41 on the test set.
+
+We recommend deploying CatBoostRegressor for production use. Additionally, feature importance analysis showed that focusing on initial temperature and processing time provides the biggest impact on the final temperature and should be the focus for further process optimization.
 ---
 
 ## 🚀 How to Run
 1️⃣ Clone the repository:
-```bash
 git clone https://github.com/ellyalalala/IndustrySteelTemperature.git
 cd IndustrySteelTemperature
+
 2️⃣ Install dependencies:
 pip install -r requirements.txt
+
 3️⃣ Run the notebook:
 jupyter notebook IndustrySteelTemperature.ipynb
 
