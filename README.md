@@ -54,14 +54,12 @@ The model demonstrates high prediction accuracy and is suitable for industrial d
 git clone https://github.com/ellyalalala/IndustrySteelTemperature.git
 cd IndustrySteelTemperature
 2️⃣ Install dependencies:
-```bash
 pip install -r requirements.txt
 3️⃣ Run the notebook:
-```bash
-## jupyter notebook IndustrySteelTemperature.ipynb
+jupyter notebook IndustrySteelTemperature.ipynb
 
 
-
+---
 
 Tech Stack
 Python 3.x
